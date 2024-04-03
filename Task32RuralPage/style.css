@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x:hidden ;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100000;
+    display: flex;
+    position: sticky;
+    height: 80px;
+}
+nav ul li{
+    display:inline;
+}
+.collapse{
+    margin-left: 200px;
+}
+nav #A{
+    height: 40px;
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+   border: 1px solid orangered;
+   border-radius: 6px;
+   text-align: center;
+    color:orangered;
+}
+nav #A:hover{
+    background-color: orangered;
+    color: white;
+}
+.dropdown_menu{
+    display: none;
+    
+}
+nav ul li:hover .dropdown_menu{
+    display: block;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    background-color: white;
+}
+.dropdown_menu ul{
+    display: block;
+    margin: 10px;
+}
+.dropdown_menu ul li{
+    /* width: 300px; */
+    padding:10px ;
+    /* border: 1px solid black; */
+}
+.dropdown_menu ul li a{
+    color: black;
+}
+#M{
+    height: 200px;
+    width: 230px;
+    background-color: white;
+    text-align: left;
+}
+.dropdown_menu #N{
+    display: none;
+}
+.dropdown_menu:hover #N{
+    display: block;
+    margin-left: 80px;
+    margin-top:0px;
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    transition: 2s;
+}
+.dropdown_menu #P{
+    display: none;
+}
+.dropdown_menu:hover #P{
+    display: block;
+    margin-left: 100px;
+    margin-top:0px;
+    height: 80px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+}
+.container-1{
+    height: 450px;
+    background-color: rgb(198, 214, 209);
+}
+.container-2 h1{
+    font-size: 70px;
+    text-align: center;
+    font-weight: lighter;
+}
+.R1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-2 button{
+    background-color: orangered;
+    color: white;
+    border: none;
+    height: 60px;
+    margin: 5px;
+}
+.container-2 p{
+    font-size: 20px;
+    text-align: center;
+    margin: 50px;
+}
+.container-2 a{
+    color: orangered;
+    font-weight:900;
+}
+.container-3 h2{
+    font-weight: lighter;
+}
+.container-3 p{
+    font-size: 20px;
+}
+.container-3 a{
+    color: orangered;
+    font-weight: bold;
+}
+.container-3 a{
+    color: orangered;
+    font-weight:900;
+}
+.container-3 #P{
+    margin-left: 100px;
+    font-size: 20px;
+}
+.container-4 h2{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.container-4 a{
+    color: orangered;
+    font-weight: bold;
+}
+.container-4 span{
+    font-weight: bold;
+}
+.container-4 #P1{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.container-4 ul li{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.container-4 p{
+    font-size: 20px;
+}
+.container-5 {
+    background-color: rgb(227, 235, 232);
+}
+.container-5 h3{
+   text-align: center;
+   font-size: 38px;
+   font-weight: lighter;
+   margin-left: 70px;
+   margin-right: 70px;
+}
+.container-5 i{
+    color: orangered;
+    text-align: center;
+    margin-left: 600px;
+    font-weight: 900px;
+    font-size: 100px;
+
+}
+.container-6 .title{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+ }
+.container-6 span{
+    font-weight: bold;
+}
+.container-6 h2{
+    margin: 10px;
+}
+.container-6 p{
+    font-size: 20px;
+}
+.container-6 button{
+    width: 150px;
+    border-radius: 10px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 10px;
+}
+.container-6 img{
+    opacity: 1.8;
+    transition-duration: 0.5s;
+}
+.container-6 img:hover{
+    display: block;
+    transform: scale(1.2);
+}
+.container-foot {
+    background:url(https://www.parallelwireless.com/wp-content/themes/parallel-wireless/assets/img/pattern-bg.jpg);
+}
+.container-foot h3{
+    margin-top: 50px;
+}
+.B{
+    display:flex;
+}
+.D{
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.C{
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: orangered;
+    margin: 5px;
+
+}
+.C i{
+    margin: 8px;
+}
+#A8{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.A10{
+    margin-left: 30px;
+}
+#A9{
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    
+}
+/* .container-11 a{
+    margin: 10px;
+} */
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100000;
+    display: flex;
+    position: sticky;
+}
+footer button{
+    background-color: orangered;
+    border:none;
+}
+footer a{
+    color:white;
+    font-size: 20px;
+}

@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x:hidden ;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100000;
+    display: flex;
+    position: sticky;
+}
+.collapse{
+    margin-left: 200px;
+}
+nav ul li{
+    display:inline;
+}
+nav #A{
+    height: 40px;
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+   border: 1px solid orangered;
+   border-radius: 6px;
+   text-align: center;
+    color:orangered;
+}
+nav #A:hover{
+    background-color: orangered;
+    color: white;
+}
+.dropdown_menu{
+    display: none;
+    
+}
+nav ul li:hover .dropdown_menu{
+    display: block;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    background-color: white;
+}
+.dropdown_menu ul{
+    display: block;
+    margin: 10px;
+}
+.dropdown_menu ul li{
+    /* width: 300px; */
+    padding:10px ;
+    /* border: 1px solid black; */
+}
+.dropdown_menu ul li a{
+    color: black;
+}
+#M{
+    height: 200px;
+    width: 230px;
+    background-color: white;
+    text-align: left;
+}
+#down2{
+    /* height: 500px; */
+    width: 100vw;
+    background-color: white;
+    position: relative;
+    margin-top:100px;
+}
+.dropdown_menu:hover #down2{
+    display:block;
+    margin-top:50px;
+    margin-left:0px;
+    /* height: 100vh; */
+    width: 100vw;
+    background-color: white;
+    position: relative;
+    /* transition: 2s; */
+}
+    #down2 a{
+        color: orangered;
+    }
+
+.dropdown_menu #N{
+    display: none;
+}
+.dropdown_menu:hover #N{
+    display: block;
+    margin-left: 80px;
+    margin-top:0px;
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    transition: 2s;
+}
+.dropdown_menu #P{
+    display: none;
+}
+.dropdown_menu:hover #P{
+    display: block;
+    margin-left: 100px;
+    margin-top:0px;
+    height: 80px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+}
+
+.container-2{
+    margin-top: 430px;
+    height: 70px;
+}
+.container-2 h1{
+    font-size: 70px;
+    font-weight: 450;
+    text-align: center;
+    background: transparent;
+}
+.title-2{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+}
+.para{
+    font-size: 22px;
+    text-align: center;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.link{
+   color: orangered;
+    font-weight: bold;
+}
+.container-foot {
+    background:url(https://www.parallelwireless.com/wp-content/themes/parallel-wireless/assets/img/pattern-bg.jpg);
+}
+.container-foot h3{
+    margin-top: 50px;
+}
+.B{
+    display:flex;
+}
+.D{
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.C{
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: orangered;
+    margin: 5px;
+
+}
+.C i{
+    margin: 8px;
+}
+#A8{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.A10{
+    margin-left: 30px;
+}
+#A9{
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    
+}
+/* .container-11 a{
+    margin: 10px;
+} */
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100000;
+    display: flex;
+    position: sticky;
+}
+footer button{
+    background-color: orangered;
+    border:none;
+}
+footer a{
+    color:white;
+    font-size: 20px;
+}
