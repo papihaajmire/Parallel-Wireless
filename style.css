@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x:hidden ;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100000;
+    display: flex;
+    position: sticky;
+}
+.collapse{
+    margin-left: 200px;
+}
+nav ul li{
+    display:inline;
+}
+nav #A{
+    height: 40px;
+    width: 100px;
+    margin: 5px;
+    padding: 5px;
+   border: 1px solid orangered;
+   border-radius: 6px;
+   text-align: center;
+    color:orangered;
+}
+nav #A:hover{
+    background-color: orangered;
+    color: white;
+}
+.dropdown_menu{
+    display: none;
+    
+}
+nav ul li:hover .dropdown_menu{
+    display: block;
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    background-color: white;
+}
+.dropdown_menu ul{
+    display: block;
+    margin: 10px;
+}
+.dropdown_menu ul li{
+    /* width: 300px; */
+    padding:10px ;
+    /* border: 1px solid black; */
+}
+
+.dropright_menu{
+    display: none;
+    
+}
+nav ul li:hover .dropright_menu{
+    display: block;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    background-color: white;
+}
+.dropright_menu ul{
+    display: block;
+    margin: 10px;
+}
+.dropright_menu ul li{
+    /* width: 300px; */
+    padding:10px ;
+    /* border: 1px solid black; */
+}
+.dropdown_menu ul li a{
+    color: black;
+}
+#M{
+    height: 200px;
+    width: 230px;
+    background-color: white;
+    text-align: left;
+    padding: 10px;
+}
+#down2{
+    height: 500px;
+    width: 100vw;
+    /* margin-top: 50px; */
+    background-color: white;
+    /* position: relative; */
+    position: absolute;
+    position: left;
+    position: top;
+}
+.dropdown_menu:hover #down2{
+    display:flex;
+    /* margin-top:150px; */
+    margin-left:0px;
+    /* height: 100vh;
+    width: 100vw; */
+    background-color: white;
+    /* position: relative; */
+    position: absolute;
+    /* transition: 2s; */
+}
+    #down2 a{
+        color: orangered;
+    }
+
+.dropdown_menu #N{
+    display: none;
+}
+.dropdown_menu:hover #N{
+    display: block;
+    margin-left:90px;
+    margin-top:0px;
+    height: 30px;
+    width: 300px;
+    top: 0;
+    background-color: white;
+    position: absolute;
+  
+}
+.dropdown_menu #P{
+    display: none;
+}
+.dropdown_menu:hover #P{
+    display:block;
+    padding: 10px;
+    margin-left:90px;
+    margin-top:20px;
+    height: 80px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+   top: 10px;
+}
+.container-1{
+    height: 550px;
+    width: 100vw;
+    /* background-image: url(img1.jpg); */
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 9;
+}
+.carousel-control-prev{
+    height: 20px;
+    margin-top: 250px;
+    width: 20px;
+}
+.carousel-control-next{
+    height: 20px;
+    margin-top: 250px;
+    width: 20px;
+}
+#A1{
+    /* margin-top: 200px; */
+    /* margin-left: 30px; */
+    text-align: left;
+}
+#A2{
+    border-radius: 10px;
+    width: 180px;
+    background-color:orangered;
+    color: white;
+}
+#A3  {
+    color: chocolate;
+    border: none;
+    font-weight: bold;
+}
+#A4 img{
+   opacity: 1.8;
+  transition-duration: 0.5s;
+}
+#A4 img:hover{
+    display: block;
+    transform: scale(1.2);
+}
+#A5{
+    font-size: 50px;
+    color: rgb(44, 42, 42);
+    font-weight:lighter;
+}
+#A6 img{
+    margin-left: 100px;
+}
+#A6 p{
+    height: 130px;
+    font-size: 22px;
+    text-align: center;
+}
+#A6 a{
+    color: orangered;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.container-5{
+    background-color: rgb(223, 231, 231);
+    
+}
+.container-5 p{
+    font-size: 22px;
+    text-align: center;
+}
+.container-5 button{
+margin-left: 630px;
+width: 100px;
+border: none;
+border-radius: 5px;
+color: white;
+background-color: orangered;
+}
+.container-6 p{
+    font-size: 20px;
+    text-align: left;
+}
+.container-6 a{
+    color: orangered;
+    font-weight: bold;
+    font-size: 22px;
+}
+.container-6 img{
+    margin-top: 70px;
+}
+.container-7 p{
+    font-size: 20px;
+    text-align: left;
+}
+.container-7 a{
+    color: orangered;
+    font-weight: bold;
+    font-size: 22px;
+}
+.container-7 img{
+    margin-top: 50px;
+}
+.container-8 p{
+    font-size: 20px;
+    text-align: left;
+}
+.container-8 a{
+    color: orangered;
+    font-weight: bold;
+    font-size: 22px;
+}
+.container-8 img{
+    margin-top: 50px;
+}
+.container-9{
+    background-color: rgb(230, 236, 236);
+}
+.container-9 img{
+    margin-left: 230px;
+}
+.container-9 p{
+    font-size: 20px;
+    text-align: center;
+}
+.container-9 a{
+    color: orangered;
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 80px;
+}
+.container-9 h2{
+    text-align: center;
+}
+.container-10 p{
+    height: 140px;
+}
+.container-10 button{
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+}
+.container-foot {
+    background:url(https://www.parallelwireless.com/wp-content/themes/parallel-wireless/assets/img/pattern-bg.jpg);
+}
+.container-foot h3{
+    margin-top: 50px;
+}
+.B{
+    display:flex;
+}
+.D{
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.C{
+    height: 30px;
+    width: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: orangered;
+    margin: 5px;
+
+}
+.C i{
+    margin: 8px;
+}
+#A8{
+    margin-left: 50px;
+    font-size: 20px;
+}
+.A10{
+    margin-left: 30px;
+}
+#A9{
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    
+}
+/* .container-11 a{
+    margin: 10px;
+} */
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100000;
+    display: flex;
+    position: sticky;
+}
+footer button{
+    background-color: orangered;
+    border:none;
+}
+footer a{
+    color:white;
+    font-size: 20px;
+}
